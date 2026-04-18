@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pycgit
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# Mac system files
+.DS_Store
+
+# Node (frontend)
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# # Large data files (optional)
+# data/*.pdf
+# data/*.txt
+# data/*.docx
+
+# VS Code
+.vscode/
