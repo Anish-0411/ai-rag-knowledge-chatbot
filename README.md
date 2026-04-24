@@ -1,9 +1,9 @@
 # 🚀 CortexRAG – Knowledge Base QA System (RAG)
 
 
-![Stars](https://img.shields.io/github/stars/Anish-0411/ai-rag-knowledge-chatbot)
-![Forks](https://img.shields.io/github/forks/Anish-0411/ai-rag-knowledge-chatbot)
-![Visitors](https://komarev.com/ghpvc/?username=Anish-0411)
+<!-- ![Stars](https://img.shields.io/github/stars/Anish-0411/ai-rag-knowledge-chatbot) -->
+<!-- ![Forks](https://img.shields.io/github/forks/Anish-0411/ai-rag-knowledge-chatbot) -->
+<!-- ![Visitors](https://komarev.com/ghpvc/?username=Anish-0411) -->
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
