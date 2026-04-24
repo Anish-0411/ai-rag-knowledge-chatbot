@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import os
 from dotenv import load_dotenv
+from fastapi.middleware.cors import CORSMiddleware
+
 
 # LangChain imports
 from langchain_community.document_loaders import (
@@ -25,6 +27,24 @@ os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 
 # -------------------- APP --------------------
 app = FastAPI()
+
+
+app.add_middleware(
+
+    CORSMiddleware,
+
+    # allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],  # React dev server
+
+    # allow_credentials=True,
+    allow_origins=["*"], 
+
+    allow_credentials=False, 
+
+    allow_methods=["*"],
+
+    allow_headers=["*"],
+
+)
 
 class Query(BaseModel):
     question: str
