@@ -1,5 +1,10 @@
 # 🚀 CortexRAG – Knowledge Base QA System (RAG)
 
+
+![Stars](https://img.shields.io/github/stars/Anish-0411/ai-rag-knowledge-chatbot)
+![Forks](https://img.shields.io/github/forks/Anish-0411/ai-rag-knowledge-chatbot)
+![Visitors](https://komarev.com/ghpvc/?username=Anish-0411)
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
 ![React](https://img.shields.io/badge/Frontend-React-blue)
@@ -7,6 +12,8 @@
 ![FAISS](https://img.shields.io/badge/VectorDB-FAISS-purple)
 ![BM25](https://img.shields.io/badge/Retrieval-BM25-yellow)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
 
 A **Retrieval-Augmented Generation (RAG)** based Knowledge Base Question Answering system that allows users to query documents (PDF, DOCX, TXT) using natural language and get accurate, context-aware answers.
 
